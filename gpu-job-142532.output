@@ -1,0 +1,280 @@
+Loading original images.......................... Completed
+Loading segmented images.......................... Completed
+len(images_original):  5285
+len(images_segmented):  5285
+Casting to one-hot encoding... 2019-07-19 09:33:29.870172: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-07-19 09:33:30.270726: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: Tesla V100-SXM2-16GB major: 7 minor: 0 memoryClockRate(GHz): 1.53
+pciBusID: 0000:1c:00.0
+totalMemory: 15.78GiB freeMemory: 15.36GiB
+2019-07-19 09:33:30.270772: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-19 09:33:30.539961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-19 09:33:30.540018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-19 09:33:30.540027: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-19 09:33:30.540356: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14872 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:1c:00.0, compute capability: 7.0)
+WARNING:tensorflow:From main.py:41: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See @{tf.nn.softmax_cross_entropy_with_logits_v2}.
+
+2019-07-19 09:33:37.099032: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-19 09:33:37.099109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-19 09:33:37.099115: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-19 09:33:37.099120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-19 09:33:37.099316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14872 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:1c:00.0, compute capability: 7.0)
+Done
+Epoch: 0
+[Train] Loss: 1.894518  Accuracy: 0.39637297
+[Test]  Loss: 1.9995975 Accuracy: 0.35011038
+in= input:0
+on= output/BiasAdd:0
+Epoch: 1
+[Train] Loss: 1.6019764  Accuracy: 0.479953
+[Test]  Loss: 1.753548 Accuracy: 0.44047648
+in= input:0
+on= output/BiasAdd:0
+Epoch: 2
+[Train] Loss: 1.5567955  Accuracy: 0.4893926
+[Test]  Loss: 1.6271179 Accuracy: 0.4802246
+in= input:0
+on= output/BiasAdd:0
+Epoch: 3
+[Train] Loss: 1.441778  Accuracy: 0.53133446
+[Test]  Loss: 1.5665141 Accuracy: 0.49207875
+in= input:0
+on= output/BiasAdd:0
+Epoch: 4
+[Train] Loss: 1.4438021  Accuracy: 0.5063924
+[Test]  Loss: 1.5549482 Accuracy: 0.48058563
+in= input:0
+on= output/BiasAdd:0
+Epoch: 5
+[Train] Loss: 1.3829575  Accuracy: 0.52577007
+[Test]  Loss: 1.5202833 Accuracy: 0.49136373
+in= input:0
+on= output/BiasAdd:0
+Epoch: 6
+[Train] Loss: 1.3412716  Accuracy: 0.54228973
+[Test]  Loss: 1.4667493 Accuracy: 0.50869983
+in= input:0
+on= output/BiasAdd:0
+Epoch: 7
+[Train] Loss: 1.273467  Accuracy: 0.56818646
+[Test]  Loss: 1.4869596 Accuracy: 0.5107774
+in= input:0
+on= output/BiasAdd:0
+Epoch: 8
+[Train] Loss: 1.2775451  Accuracy: 0.5731145
+[Test]  Loss: 1.4585496 Accuracy: 0.51106364
+in= input:0
+on= output/BiasAdd:0
+Epoch: 9
+[Train] Loss: 1.2038802  Accuracy: 0.581307
+[Test]  Loss: 1.4007177 Accuracy: 0.53091127
+in= input:0
+on= output/BiasAdd:0
+Epoch: 10
+[Train] Loss: 1.2204108  Accuracy: 0.5870885
+[Test]  Loss: 1.3945378 Accuracy: 0.530593
+in= input:0
+on= output/BiasAdd:0
+Epoch: 11
+[Train] Loss: 1.1585827  Accuracy: 0.60397947
+[Test]  Loss: 1.3386236 Accuracy: 0.5489141
+in= input:0
+on= output/BiasAdd:0
+Epoch: 12
+[Train] Loss: 1.124356  Accuracy: 0.6096252
+[Test]  Loss: 1.3942381 Accuracy: 0.5320463
+in= input:0
+on= output/BiasAdd:0
+Epoch: 13
+[Train] Loss: 1.1116109  Accuracy: 0.6204483
+[Test]  Loss: 1.3485374 Accuracy: 0.54015034
+in= input:0
+on= output/BiasAdd:0
+Epoch: 14
+[Train] Loss: 1.016838  Accuracy: 0.66413724
+[Test]  Loss: 1.3213323 Accuracy: 0.5584259
+in= input:0
+on= output/BiasAdd:0
+Epoch: 15
+[Train] Loss: 1.0660051  Accuracy: 0.6469793
+[Test]  Loss: 1.4552137 Accuracy: 0.51904833
+in= input:0
+on= output/BiasAdd:0
+Epoch: 16
+[Train] Loss: 0.93949056  Accuracy: 0.6760035
+[Test]  Loss: 1.3066547 Accuracy: 0.5665004
+in= input:0
+on= output/BiasAdd:0
+Epoch: 17
+[Train] Loss: 0.9308916  Accuracy: 0.68963677
+[Test]  Loss: 1.2738154 Accuracy: 0.5736864
+in= input:0
+on= output/BiasAdd:0
+Epoch: 18
+[Train] Loss: 1.0466852  Accuracy: 0.645813
+[Test]  Loss: 1.3391087 Accuracy: 0.56772697
+in= input:0
+on= output/BiasAdd:0
+Epoch: 19
+[Train] Loss: 0.92075336  Accuracy: 0.68281454
+[Test]  Loss: 1.2937459 Accuracy: 0.58101135
+in= input:0
+on= output/BiasAdd:0
+Epoch: 20
+[Train] Loss: 0.8443392  Accuracy: 0.69984794
+[Test]  Loss: 1.2630045 Accuracy: 0.5779189
+in= input:0
+on= output/BiasAdd:0
+Epoch: 21
+[Train] Loss: 0.8715112  Accuracy: 0.7044876
+[Test]  Loss: 1.4052901 Accuracy: 0.54337007
+in= input:0
+on= output/BiasAdd:0
+Epoch: 22
+[Train] Loss: 0.80669284  Accuracy: 0.71860707
+[Test]  Loss: 1.2864451 Accuracy: 0.582735
+in= input:0
+on= output/BiasAdd:0
+Epoch: 23
+[Train] Loss: 0.758987  Accuracy: 0.7452947
+[Test]  Loss: 1.3043742 Accuracy: 0.5807492
+in= input:0
+on= output/BiasAdd:0
+Epoch: 24
+[Train] Loss: 0.7414032  Accuracy: 0.74200183
+[Test]  Loss: 1.3864986 Accuracy: 0.57955945
+in= input:0
+on= output/BiasAdd:0
+Epoch: 25
+[Train] Loss: 0.69314396  Accuracy: 0.7567759
+[Test]  Loss: 1.350965 Accuracy: 0.5857859
+in= input:0
+on= output/BiasAdd:0
+Epoch: 26
+[Train] Loss: 0.64254683  Accuracy: 0.77542317
+[Test]  Loss: 1.345311 Accuracy: 0.5801892
+in= input:0
+on= output/BiasAdd:0
+Epoch: 27
+[Train] Loss: 0.5977204  Accuracy: 0.7879369
+[Test]  Loss: 1.4509904 Accuracy: 0.5786796
+in= input:0
+on= output/BiasAdd:0
+Epoch: 28
+[Train] Loss: 0.57277554  Accuracy: 0.7964259
+[Test]  Loss: 1.4078625 Accuracy: 0.5879716
+in= input:0
+on= output/BiasAdd:0
+Epoch: 29
+[Train] Loss: 0.56803757  Accuracy: 0.80119425
+[Test]  Loss: 1.4824595 Accuracy: 0.57624835
+in= input:0
+on= output/BiasAdd:0
+Epoch: 30
+[Train] Loss: 0.5202804  Accuracy: 0.81583
+[Test]  Loss: 1.4943248 Accuracy: 0.58372396
+in= input:0
+on= output/BiasAdd:0
+Epoch: 31
+[Train] Loss: 0.49855855  Accuracy: 0.8140188
+[Test]  Loss: 1.5808281 Accuracy: 0.57324374
+in= input:0
+on= output/BiasAdd:0
+Epoch: 32
+[Train] Loss: 0.5345452  Accuracy: 0.8100937
+[Test]  Loss: 1.6567432 Accuracy: 0.5621816
+in= input:0
+on= output/BiasAdd:0
+Epoch: 33
+[Train] Loss: 0.45044175  Accuracy: 0.8390508
+[Test]  Loss: 1.6346691 Accuracy: 0.5602159
+in= input:0
+on= output/BiasAdd:0
+Epoch: 34
+[Train] Loss: 0.45886794  Accuracy: 0.8336736
+[Test]  Loss: 1.74763 Accuracy: 0.57251596
+in= input:0
+on= output/BiasAdd:0
+Epoch: 35
+[Train] Loss: 0.39288145  Accuracy: 0.85351056
+[Test]  Loss: 1.8054105 Accuracy: 0.56306
+in= input:0
+on= output/BiasAdd:0
+Epoch: 36
+[Train] Loss: 0.36789754  Accuracy: 0.8692525
+[Test]  Loss: 1.7651198 Accuracy: 0.57883424
+in= input:0
+on= output/BiasAdd:0
+Epoch: 37
+[Train] Loss: 0.3708858  Accuracy: 0.869841
+[Test]  Loss: 1.819106 Accuracy: 0.57048035
+in= input:0
+on= output/BiasAdd:0
+Epoch: 38
+[Train] Loss: 0.3493459  Accuracy: 0.8738251
+[Test]  Loss: 1.9138256 Accuracy: 0.5760184
+in= input:0
+on= output/BiasAdd:0
+Epoch: 39
+[Train] Loss: 0.37490863  Accuracy: 0.8691279
+[Test]  Loss: 2.0782824 Accuracy: 0.55621284
+in= input:0
+on= output/BiasAdd:0
+Epoch: 40
+[Train] Loss: 0.31093433  Accuracy: 0.89244384
+[Test]  Loss: 1.9319164 Accuracy: 0.5696237
+in= input:0
+on= output/BiasAdd:0
+Epoch: 41
+[Train] Loss: 0.34453323  Accuracy: 0.8780721
+[Test]  Loss: 1.9659876 Accuracy: 0.56367403
+in= input:0
+on= output/BiasAdd:0
+Epoch: 42
+[Train] Loss: 0.29659978  Accuracy: 0.8970179
+[Test]  Loss: 1.9914498 Accuracy: 0.5685897
+in= input:0
+on= output/BiasAdd:0
+Epoch: 43
+[Train] Loss: 0.28464442  Accuracy: 0.9008128
+[Test]  Loss: 2.1027288 Accuracy: 0.57421404
+in= input:0
+on= output/BiasAdd:0
+Epoch: 44
+[Train] Loss: 0.29251203  Accuracy: 0.89817303
+[Test]  Loss: 2.208043 Accuracy: 0.55700296
+in= input:0
+on= output/BiasAdd:0
+Epoch: 45
+[Train] Loss: 0.27929014  Accuracy: 0.90188396
+[Test]  Loss: 2.151634 Accuracy: 0.5633038
+in= input:0
+on= output/BiasAdd:0
+Epoch: 46
+[Train] Loss: 0.3366458  Accuracy: 0.88789874
+[Test]  Loss: 2.0847166 Accuracy: 0.5647445
+in= input:0
+on= output/BiasAdd:0
+Epoch: 47
+[Train] Loss: 0.29347664  Accuracy: 0.8955444
+[Test]  Loss: 2.1544695 Accuracy: 0.5716803
+in= input:0
+on= output/BiasAdd:0
+Epoch: 48
+[Train] Loss: 0.2609932  Accuracy: 0.90859425
+[Test]  Loss: 2.093141 Accuracy: 0.58070904
+in= input:0
+on= output/BiasAdd:0
+Epoch: 49
+[Train] Loss: 0.25919214  Accuracy: 0.9102707
+[Test]  Loss: 2.2434494 Accuracy: 0.56796
+in= input:0
+on= output/BiasAdd:0
+Result
+[Test]  Loss: 2.2434494 Accuracy: 0.56796
